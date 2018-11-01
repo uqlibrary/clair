@@ -6,4 +6,4 @@ if [[ -z ${PGPW} ]] ; then
 fi
 
 sed -i 's/{PGPW}/$PGPW/g' /config/config.yaml
-/clair
+/clair -config=/config/config.yaml
