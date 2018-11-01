@@ -5,5 +5,5 @@ if [[ -z ${PGPW} ]] ; then
     exit 1
 fi
 
-sed -i 's/{PGPW}/$PGPW/g' /config/config.yaml
+sed -i "s/{PGPW}/$PGPW/g" /config/config.yaml
 /clair -config=/config/config.yaml
