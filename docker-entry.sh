@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [[ -z ${PGPW} ]] ; then
     echo "FATAL ERROR: PGPW is not set"
